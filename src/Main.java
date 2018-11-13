@@ -13,6 +13,7 @@ public class Main {
         System.out.println(blender.getMateriale());
         blender.materialeToWood();
         System.out.println(blender.getMateriale());
+        blender.useUtensils();
 
         KitchenUtensils kitchenAid = new KitchenUtensils("metal", true);
         System.out.println(kitchenAid.isUsesPower());
