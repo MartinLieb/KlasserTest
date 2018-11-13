@@ -1,4 +1,4 @@
-public class KitchenUtensils {
+public class KitchenUtensils implements Interface{
 
     private int numberOfUtensils;
     private String materiale;
