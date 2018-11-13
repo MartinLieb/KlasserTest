@@ -72,17 +72,18 @@ public class KitchenUtensils {
         System.out.println("Du kastede køkkenredskabet");
     }
 
-    public double addLenght(double lenght){
+    public double addLenght(){
+        this.getLenght();
         this.lenght++;
         return this.lenght;
     }
 
-    public String materialeToWood(String materiale){
+    public String materialeToWood(){
         setMateriale("Wood");
         return this.materiale;
     }
 
-    public boolean electrify(boolean usesPower){
+    public boolean electrify(){
         setUsesPower(true);
         return usesPower;
     }
