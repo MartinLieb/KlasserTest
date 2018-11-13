@@ -14,6 +14,7 @@ public class Main {
         blender.materialeToWood();
         System.out.println(blender.getMateriale());
         blender.useUtensils();
+        blender.throwUtensils();
 
         KitchenUtensils kitchenAid = new KitchenUtensils("metal", true);
         System.out.println(kitchenAid.isUsesPower());
